@@ -1,0 +1,80 @@
+export const DUMMY_DATA = [
+    {
+        id: 0,
+        name: 'Mazda 3',
+        brand: 'Mazda',
+        year: 2019,
+        price: '68 900 PLN',
+        mileage: '85 000 km',
+        engine: '2.0 SkyActiv-G 122 KM',
+        fuel: 'Benzyna',
+        gearbox: 'Manualna',
+        href: 'mazda3_16.jpg',
+        description: 'Zadbana Mazda 3 z polskiego salonu. Bezwypadkowa, serwisowana w ASO. Bogate wyposażenie wersji Suration, w tym nagroda Bose, kamera cofania i wyświetlacz Head-Up.'
+    },
+    {
+        id: 1,
+        name: 'Audi A4',
+        brand: 'Audi',
+        year: 2021,
+        price: '125 000 PLN',
+        mileage: '45 000 km',
+        engine: '2.0 TDI 190 KM',
+        fuel: 'Diesel',
+        gearbox: 'Automatyczna (S-Tronic)',
+        href: 'audi.jpg',
+        description: 'Nowoczesne Audi A4 w pakiecie S-line. Dynamiczny i bardzo oszczędny silnik diesla, napęd Quattro. Auto w stanie idealnym, gotowe do jazdy bez dodatkowego wkładu finansowego.'
+    },
+    {
+        id: 2,
+        name: 'Jaguar XE',
+        brand: 'Jaguar',
+        year: 2018,
+        price: '89 900 PLN',
+        mileage: '110 000 km',
+        engine: '2.0 Turbo 250 KM',
+        fuel: 'Benzyna',
+        gearbox: 'Automatyczna',
+        href: 'auto.jpg',
+        description: 'Elegancki i sportowy Jaguar XE. Komfortowe wnętrze wykończone skórą, świetne właściwości jezdne i unikalny styl. Pełna historia serwisowa.'
+    },
+      {
+        id: 3,
+        name: 'Jaguar XE',
+        brand: 'Jaguar',
+        year: 2018,
+        price: '89 900 PLN',
+        mileage: '110 000 km',
+        engine: '2.0 Turbo 250 KM',
+        fuel: 'Benzyna',
+        gearbox: 'Automatyczna',
+        href: 'auto.jpg',
+        description: 'Elegancki i sportowy Jaguar XE. Komfortowe wnętrze wykończone skórą, świetne właściwości jezdne i unikalny styl. Pełna historia serwisowa.'
+    },
+      {
+        id: 4,
+        name: 'Jaguar XE',
+        brand: 'Jaguar',
+        year: 2018,
+        price: '89 900 PLN',
+        mileage: '110 000 km',
+        engine: '2.0 Turbo 250 KM',
+        fuel: 'Benzyna',
+        gearbox: 'Automatyczna',
+        href: 'auto.jpg',
+        description: 'Elegancki i sportowy Jaguar XE. Komfortowe wnętrze wykończone skórą, świetne właściwości jezdne i unikalny styl. Pełna historia serwisowa.'
+    },
+      {
+        id: 5,
+        name: 'Jaguar XE',
+        brand: 'Jaguar',
+        year: 2018,
+        price: '89 900 PLN',
+        mileage: '110 000 km',
+        engine: '2.0 Turbo 250 KM',
+        fuel: 'Benzyna',
+        gearbox: 'Automatyczna',
+        href: 'auto.jpg',
+        description: 'Elegancki i sportowy Jaguar XE. Komfortowe wnętrze wykończone skórą, świetne właściwości jezdne i unikalny styl. Pełna historia serwisowa.'
+    }
+];
