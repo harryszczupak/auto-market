@@ -324,7 +324,7 @@ export const DUMMY_DATA = [
         engine: "1.5 TFSI 150 KM",
         fuel: "Benzyna",
         gearbox: "Automatyczna S-Tronic",
-        href: "audi-a3-35-tfsi.jpg",
+        href: "A335.jpg",
         description:
             "Audi A3 35 TFSI w nowoczesnej wersji. Ekonomiczny silnik benzynowy i automatyczna skrzynia.",
     },
@@ -578,7 +578,7 @@ export const DUMMY_DATA = [
         engine: "1.3 Turbo 136 KM",
         fuel: "Benzyna",
         gearbox: "Automatyczna 7G-DCT",
-        href: "mercedes-a180.jpg",
+        href: "A180.jpg",
         description:
             "Mercedes-Benz A180 w bardzo dobrym stanie. Komfortowe wnętrze i automatyczna skrzynia.",
     },
@@ -828,7 +828,7 @@ export const DUMMY_DATA = [
         engine: "1.5 TSI 150 KM",
         fuel: "Benzyna",
         gearbox: "Manualna",
-        href: "volkswagen-golf-15-tsi.jpg",
+        href: "GOLF15.jpg",
         description:
             "Volkswagen Golf z silnikiem 1.5 TSI. Praktyczny i ekonomiczny samochód do codziennej jazdy.",
     },
@@ -845,7 +845,7 @@ export const DUMMY_DATA = [
         engine: "2.0 TDI 150 KM",
         fuel: "Diesel",
         gearbox: "Automatyczna DSG",
-        href: "volkswagen-golf-20-tdi.jpg",
+        href: "GOLF20.jpg",
         description:
             "Volkswagen Golf 2.0 TDI z automatyczną skrzynią DSG.",
     },
@@ -917,7 +917,7 @@ export const DUMMY_DATA = [
         engine: "2.0 TDI 150 KM",
         fuel: "Diesel",
         gearbox: "Automatyczna DSG",
-        href: "volkswagen-passat-20-tdi.jpg",
+        href: "Passat20.jpg",
         description:
             "Volkswagen Passat 2.0 TDI z oszczędnym silnikiem diesla i automatyczną skrzynią.",
     },

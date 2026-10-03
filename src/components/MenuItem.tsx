@@ -58,7 +58,9 @@ const MenuItem = ({ name, children, onSelect
                         hover:bg-gray-600
                         hover:text-white
                     "
-                    onClick={() => setIsOpen(!isOpen)}
+                    onClick={(e) => {
+                        e.stopPropagation();
+                        setIsOpen(!isOpen)}}
                 >
                     <span
                         className={`

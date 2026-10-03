@@ -25,7 +25,7 @@ const Modal = ({ name, href, price, mileage, year, brand, engine, fuel, gearbox,
         </button>
 
         
-        <div className="w-1/2 bg-gray-800">
+        <div className="flex flex-col min-h-0 w-1/2 bg-gray-800">
          
           <div className="h-72 w-full overflow-hidden">
             <img
@@ -36,7 +36,7 @@ const Modal = ({ name, href, price, mileage, year, brand, engine, fuel, gearbox,
           </div>
 
           
-          <div className="p-7">
+          <div className="p-7 overflow-y-auto">
             <p className="mb-1 text-sm font-medium uppercase tracking-wider text-gray-400">
               {brand}
             </p>

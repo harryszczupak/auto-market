@@ -1,11 +1,12 @@
 import Item from "./Item";
 import type { CarItem } from "../types/item";
-import { useState, type ChangeEvent } from "react";
+import { useEffect, useState, type ChangeEvent } from "react";
 import Modal from "./Modal";
 import { DUMMY_DATA } from "../data/DUMMY_DATA";
 import FilterModal from "./FilterModal";
 import { cars } from "../data/DUMMY_DATA";
 import MenuItem from "./MenuItem";
+
 
 
 const ItemGrid = () => {
@@ -17,8 +18,15 @@ const ItemGrid = () => {
         model:"",
     });
 
+    const [debouncedsearch,setdebouncedsearch] = useState<string>("")
     const [activeFilter, setActiveFilter] = useState<number>(0);
 
+    useEffect(() => {
+        const timer = setTimeout(() => {
+            setdebouncedsearch(filters.search)
+        },500)
+        return () => clearTimeout(timer)
+    })
     const [sortedBy, setSortedBy] = useState<string>("asc");
     const [pickedItem, setPickedItem] = useState<CarItem | null>(null);
     const [isOpen, setIsOpen] = useState<boolean>(false);
@@ -29,7 +37,7 @@ const ItemGrid = () => {
         (item) =>
             item.name
                 .toLowerCase()
-                .includes(filters.search.toLowerCase()) &&
+                .includes(debouncedsearch.toLowerCase()) &&
             (filters.engine === "" || item.fuel === filters.engine) &&
             (filters.brand === "" || item.brand === filters.brand) &&
             (filters.model === "" || item.model === filters.model)

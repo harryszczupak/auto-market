@@ -42,9 +42,11 @@ const FilterModal = ({
                             const count = Array.from(formData.entries()).filter(
                                 ([_, value]) => value !== ""
                                     ).length;
+                    
                             onSubmit(formData);
                             onActiveFilter(count);
                             onClose();
+                        
                         }}
                     >
                         {/* Engine */}
