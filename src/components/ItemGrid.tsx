@@ -10,7 +10,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { setFilter, clearFilter } from '../store/filters/actions';
 import type { AppDispatch, RootState } from '../store/store';
 import { setSort } from '../store/sort/actions';
-import { clearItem } from '../store/pickedItem/actions';
+
 
 const ItemGrid = () => {
 	const filters = useSelector((state: RootState) => state.filter);
